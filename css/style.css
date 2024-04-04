@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+body{
+background-color: #f2f3f531;
+}
+section,
+footer{
+    padding:54px 0;
+}
+h3{
+    font-size: 50px;
+}
+p{
+    color:#0000009c
+}
+.container{
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav ul{
+    display:flex;
+    justify-content: flex-end;
+}
+nav ul a{
+    color: #fdbff4ba;
+    top: 100px;
+    margin: 0 25px;
+    margin-top: -65px;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif
+}
+.btn:hover{
+    background-color: #fcd37c;
+    color: rgb(77, 75, 75);
+    border-radius: 10px;
+    padding: 20px 20px;
+    transition: 0.5s;
+}
+/* menu mobile*/
+nav .menu-icon{
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    position: relative;
+    right: -2300px;
+    top: -70px;
+    display: none;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner .banner-text{
+    margin: 260px;
+    text-align: center;
+    padding: 0 90px;
+}
+.banner .banner-text h1{
+    font-size: 96px;
+    color: white;
+    margin-top: -150px;
+}
+.banner .banner-text p{
+    font-size: 25px;
+    color: #ffffffb7;
+    font-weight: lighter;
+    margin: 35px 0;
+    width: 800px;
+}
+img{
+   position: relative;
+   top: 40px;
+   left: -80px;
+   width: 12%;
+   transform: rotate3d(10)
+}
+
+/*faca mais*/
+.faca-mais .container{
+    display: flex;
+    align-items: center;
+}
+.faca-mais .faca-mais-text{
+    width: 100%;
+    padding: -0px 70px;
+}
+.faca-mais .faca-mais-text h3{
+    font-size: 100px;
+    text-align: left;
+}
+.faca-mais .faca-mais-texto h3{
+    font-size: 100px;
+    text-align: center;
+}
+.faca-mais .faca-mais-text p{
+    margin: 5px 0 10px 0;
+    font-size: 35px;
+    width: 1100px;
+    text-align: left;
+}
+.faca-mais .faca-mais-texto p{
+    margin: 5px 0 -80px 0;
+    font-size: 35px;
+    width: 1100px;
+    text-align: right;
+}
+.faca-mais .faca-mais-img{
+    width: 60%;
+}
+.faca-mais .faca-mais-img img{
+    width: 100%;
+    top: 20px;
+    left: -100px;
+}
+.faca-mais .faca-mais-img2{
+    width: 50%;
+}
+.faca-mais .faca-mais-img2 img{
+    width: 43%;
+    top: 20px;
+    left: 150px;
+}
+.btn1{
+    background-color: #faca66;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0,1s;
+}
+.btn1:hover{
+    background-color: #fcd37c;
+    color: rgb(77, 75, 75);
+    border-radius: 10px;
+}
+.btn1{
+    color: #000000ba;
+    top: 100px;
+    margin: 0 490px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.btn2{
+    background-color: #faca66;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0,1s;
+}
+.btn2:hover{
+    background-color: #fcd37c;
+    color: rgb(77, 75, 75);
+    border-radius: 10px;
+}
+.btn2{
+    color: #000000ba;
+    top: 100px;
+    margin: 0 460px;
+    margin-top: -5px;
+    font-size: 30px;
+    text-align: center;
+}
+.btn2.animate-btn2{
+    animation: animate-outline 1s ease-out infinite;
+}
+@keyframes animate-outline {
+    from{
+        outline: 0px solid #fcd072;
+    }
+    to{
+        outline: 15px solid #4f9bf900;
+    }
+}
+.btn1.animate-btn1{
+    animation: animate-outline 1s ease-out infinite;
+}
+@keyframes animate-outline {
+    from{
+        outline: 0px solid #fcd072;
+    }
+    to{
+        outline: 15px solid #4f9bf900;
+    }
+}
+.depoimentos h3{
+    text-align: center;
+    font-size: 100px;
+}
+.depoimentos p{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.depoimentos .card-item{
+    background-color: #d3e6fd;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+}
+.depoimentos .card-item img{
+    width: 150px;
+    left: 90px;
+    display: block;
+}
+.depoimentos .card-item .nome-user{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.depoimentos .card-item .depoimento-user{
+    font-size: 19px;
+    padding: 0 15px;
+}
+.depoimentos .card-item:hover{
+    background-color: #4f9cf9;
+    transition: 0.5s;
+    margin-top: -3px;
+}
+.depoimentos .card-item:hover .nome-user{
+    color:white
+}
+.depoimentos .card-item:hover .depoimento-user{
+    color: white;
+}
+    .logo img{
+    position: relative;
+    top: 15px;
+    left: 300px;
+    width: 40%;
+}
+footer {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 0px;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 17px;
+    margin: 0;
+    font-size: 25px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+    .faca-mais .faca-mais-img2 img{
+        width: 270%;
+        position: relative;
+        left: 30px;
+        top: 70px;
+    }
+    .faca-mais .faca-mais-img img{
+        width: 1100%;
+        position: relative;
+        left: -435px ;
+    }
+    .faca-mais .faca-mais-texto p{
+        width: 700px;
+        position:relative;
+        left: 350px;
+        text-align: right;
+        align-items:flex-end;
+        font-size: 25px;
+    }
+    .faca-mais .faca-mais-texto h3{
+        padding: 0px 10px 0px 10px;
+        position: relative;
+        left: 360px;
+    }
+    .faca-mais .faca-mais-text p{
+        width: 600px;
+        font-size: 25px;
+    }
+    .btn1{
+        background-color: #faca66;
+        color: black;
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        transition: 0,1s;
+        position: relative;
+        top: 0px;
+        left: 250px;
+        font-size: 20px;
+    }
+    .btn2{
+        background-color: #faca66;
+        color: black;
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        transition: 0,1s;
+        position: relative;
+        top: 10px;
+        right: 230px;
+        font-size: 20px;
+    }
+    .logo img{
+        position: relative;
+       top: 15px;
+       left: 70px;
+       width: 80%;
+    }
+}
+    @media only screen and (min-width: 1920px) and (max-width: 2500px){
+    .faca-mais .faca-mais-img2 img{
+        width: 70%;
+        position: relative;
+        left: 120px;
+        top: 70px;
+    }
+    .faca-mais .faca-mais-img img{
+        width: 120%;
+        position: relative;
+        left: -90px ;
+    }
+    .faca-mais .faca-mais-texto p{
+        width: 900px;
+        position:relative;
+        left: 155px;
+        text-align: right;
+        align-items:flex-end;
+        font-size: 30px;
+    }
+    .faca-mais .faca-mais-texto h3{
+        padding: 0px 10px 0px 10px;
+        position: relative;
+        left: 360px;
+    }
+    .faca-mais .faca-mais-text p{
+        width: 900px;
+        font-size: 30px;
+    }
+    .btn1{
+        background-color: #faca66;
+        color: black;
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        transition: 0,1s;
+        position: relative;
+        top: 0px;
+        left: 150px;
+        font-size: 25px;
+    }
+    .btn2{
+        background-color: #faca66;
+        color: black;
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        transition: 0,1s;
+        position: relative;
+        top: 10px;
+        right: 180px;
+        font-size: 25px;
+    }
+    .logo img{
+        position: relative;
+       top: 15px;
+       left: 200px;
+       width: 65%;
+    }
+}
